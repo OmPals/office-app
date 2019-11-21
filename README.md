@@ -8,3 +8,5 @@
 
 [![Relational Schema](https://raw.githubusercontent.com/OmPals/office-app/master/rel.png)](https://raw.githubusercontent.com/OmPals/office-app/master/rel.png)
 
+##### Check out[ models.py ](https://github.com/OmPals/office-app/blob/master/office/models.py " models.py ")in office folder for database definition from [Django ORM](https://tutorial.djangogirls.org/en/django_orm/ "Django ORM"). on Postgres server.
+#### Mysite is a django project. Office is an django app.
