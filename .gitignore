@@ -1,0 +1,9 @@
+*.pyc
+*~
+/.vscode
+__pycache__
+ompals
+db.sqlite3
+/static
+.DS_Store
+postgres
