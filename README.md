@@ -10,3 +10,7 @@
 
 ##### Check out[ models.py ](https://github.com/OmPals/office-app/blob/master/office/models.py " models.py ")in office folder for database definition from [Django ORM](https://tutorial.djangogirls.org/en/django_orm/ "Django ORM"). on Postgres server.
 #### Mysite is a django project. Office is an django app.
+
+#### A visit can be created on localhost http://127.0.0.1:8000/admin/office/ after running `python3 manage.py runserver` from terminal.
+
+#### The details of visit would be stored on local postgres server.
