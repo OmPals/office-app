@@ -7,6 +7,7 @@ from .models import Visit
 from .models import Visitor
 from .models import Host
 import uuid
+import smtplib
 
 admin.site.register(Visitor)
 admin.site.register(Host)

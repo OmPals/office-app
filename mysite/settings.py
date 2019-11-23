@@ -75,19 +75,15 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-DATABASE_URL = 'postgresql:///office'
+DATABASE_URL = 'postgresql:///myoffice1'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'office',
+        'NAME': 'myoffice1',
         'USER': 'office',
         'PASSWORD': 'office',
         'HOST': 'localhost',
         'PORT': '5432',
-        'OPTIONS': {
-            'isolation_level':
-psycopg2.extensions.ISOLATION_LEVEL_SERIALIZABLE,
-        },
     }
 }
 
